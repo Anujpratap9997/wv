@@ -1,0 +1,25 @@
+
+.loading-page{
+    display: flex;
+    position: relative;
+    height: 100vh !important;
+    justify-content: center !important;
+    align-items: center !important;
+    color: #fff;
+    flex-direction: column;
+}
+.logo-frame{
+    position: absolute;
+}
+.workverse-name{
+    margin-bottom: -5%;
+    margin-top: 5%;
+    font-weight: 400;
+}
+
+@media only screen and (width >= 1200) {
+    .workverse-name{
+        font-size: 5.4rem !important;
+        font-weight: 250 !important;
+    }
+}

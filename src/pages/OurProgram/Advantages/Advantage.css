@@ -1,0 +1,58 @@
+.smart{
+    color: #DBFDFF;
+}
+
+@media screen and (max-width:768px) {
+    #workplaceprofile1{
+        display: none;
+    }
+   
+    #mobileworkplaceprofile1{
+        display: block;
+    } 
+}
+
+@media screen and (min-width:768px) {
+    #mobileworkplaceprofile1{
+        display: none;
+    }
+    #workplaceprofile1{
+        display: block;
+    }
+}
+
+.hr1{
+    /* opacity: 0.30000001192092896; */
+background: #BAFFF7;
+/* border-top: #31E2ED; */
+border-top-width: 2px;
+border-color: white;
+}
+
+.next{
+    border-radius: 4px;
+background: linear-gradient(132deg, rgba(2, 30, 41, 0.58) 0%, rgba(2, 30, 41, 0.55) 71.70%, rgba(2, 30, 41, 0.54) 100%);
+width: 237px;
+float: right;
+color: #DBFDFF;
+}
+.ww{
+    font-family: 'Magistral';
+font-size: 24px;
+font-weight: 300;
+line-height: 31px;
+letter-spacing: 0em;
+text-align: center;
+color: #DBFDFF;
+
+}
+
+.growth1{
+    color:  #31E2ED;
+}
+
+ul.un li{
+    margin-bottom: 3%;
+    font-size: 1.3rem;;
+    color: rgba(219, 253, 255, 1);
+}

@@ -1,0 +1,31 @@
+
+.mobile-section-three-container{
+    max-height: 100vh;
+    height: 100vh;
+    justify-content: center;
+}
+.mobile-floor-container{
+    background-image: url("../../../assets/images/grid-floor.svg") ;
+    max-width: 100% !important;
+    position: relative;
+    top: 40%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index:1;
+
+}
+
+.mobile-rect-floor{
+    height: 20px;
+    background-color: #A5B8BB;
+}
+
+.mobile-rect-desk{
+    z-index: 2;
+    background-color: #a5b8bb;
+    width: 100%;
+    height: 10vh;
+    position: relative;
+    bottom: 0%;
+}

@@ -1,0 +1,77 @@
+@import url("https://use.typekit.net/aaq1fxx.css");
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "magistral", sans-serif;
+    font-weight: 300;
+    width: 100vw !important;
+    background-color:#000000;
+    padding-top: 0 !important;
+
+}
+
+/* Navbar */
+.nav{
+    background: linear-gradient(90deg,#358eb9,#71bfbc);
+    color: white !important;
+    position:absolute;
+    top: 0;
+    width: 100%;
+    z-index:1;
+
+}
+.nav-link{
+    color: white!important;
+}
+
+
+/* Home page */
+h2{
+    font-size: 40px;
+}
+.sampletext{
+    width: 60% !important;
+    font-weight: 600 !important;
+    font-size: 20px;
+}
+
+.home-text{
+    padding-top: 10%;
+}
+.home-text-below{
+    padding: 6%;
+    margin: 2;
+}
+.landing-text{
+    font-size: 25px;
+}
+
+
+
+/* logo in home.js*/
+.logo-container{
+    position: absolute;
+    
+    color: white;
+    font-family: magistral, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+
+}
+
+.logo{
+    position: fixed;
+    top:0;
+    /* width:20%; */
+    left:50%;
+    transform:translateX(-50%);
+    z-index: 1001;
+}
+
+
+/* bg css */
+
+
+
+
+

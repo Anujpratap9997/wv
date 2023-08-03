@@ -1,0 +1,60 @@
+.nav{
+    position: sticky;
+    background: none;
+    color: white !important;
+    height: 40px;
+    top: 0;
+    width: 100%;
+    z-index:1;
+    stroke-width: 3px;
+    stroke-dasharray: 4500;
+    animation: draw 8s ease;
+}
+
+.nav-logo{
+    margin-right: auto;
+    align-items: center;
+    padding-top: 0;
+    position: absolute;
+    left: 20px;
+}
+
+.tagline-text{
+    margin-top: -28px;
+}
+
+.logo-text{
+    margin-left: 35px;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+
+.nav-list-item:hover{
+    border-bottom: 1px solid white;
+}
+
+/* Mobile section css  */
+.nav-logo-mobile{
+    margin-right: auto;
+    
+    padding-top: 0;
+   
+}
+
+.navbar-mobile{
+    backdrop-filter: "blur( 4px )"; 
+    height:"100vh";
+    z-index:"2";
+    font-weight: 500;
+}
+
+/* logo animation */
+
+@keyframes draw {
+    0%{
+        stroke-dashoffset: 45000;
+    }
+    100%{
+        stroke-dashoffset: 0;
+    }
+}

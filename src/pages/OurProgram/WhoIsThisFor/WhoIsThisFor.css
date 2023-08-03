@@ -1,0 +1,23 @@
+.textColWhoIsThisFor{
+    color: rgba(219, 253, 255, 1);
+}
+.WhoHead{
+    color: rgba(49, 226, 237, 1);
+
+}
+.WhoHead span {
+    margin-right: 8px; /* Add the desired space between "01." and "Mindset" */
+  }
+.imgContWhoIsThisFor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgWhoIsThisFor{
+    width: 95%;
+    height: 95%;
+    
+}
+.textColWhoIsThisFor li {
+    margin-bottom: 10px;
+  }

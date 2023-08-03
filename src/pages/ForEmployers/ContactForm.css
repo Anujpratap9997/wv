@@ -1,0 +1,75 @@
+.ContactForm {
+    position: relative;
+    width: 80%;
+}
+
+/* Assuming you have a container element wrapping the form */
+.name {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 25px;
+    background: linear-gradient(93.74deg, rgba(2, 30, 41, 0.58) 12.3%, rgba(2, 30, 41, 0.551528) 68.5%, rgba(2, 30, 41, 0.54) 90.68%);
+    box-shadow: 0px 0px 4px 0px rgba(7, 237, 196, 0.3);
+    /* box-shadow: 0px 4px 9px 0px rgba(186, 255, 247, 0.09); */
+    border-radius: 6px;
+    color: #FFFFFF;
+}
+
+.email {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 25px;
+    background: linear-gradient(93.74deg, rgba(2, 30, 41, 0.58) 12.3%, rgba(2, 30, 41, 0.551528) 68.5%, rgba(2, 30, 41, 0.54) 90.68%);
+    box-shadow: 0px 0px 4px 0px rgba(7, 237, 196, 0.3);
+    /* box-shadow: 0px 4px 9px 0px rgba(186, 255, 247, 0.09); */
+    border-radius: 6px;
+    color: #FFFFFF;
+}
+
+.question {
+    width: 70%;
+    min-height: 30vh;
+    padding: 10px;
+    margin-bottom: 25px;
+    background: linear-gradient(93.74deg, rgba(2, 30, 41, 0.58) 12.3%, rgba(2, 30, 41, 0.551528) 68.5%, rgba(2, 30, 41, 0.54) 90.68%);
+    box-shadow: 0px 0px 14px 0px rgba(7, 237, 196, 0.3);
+
+    /* box-shadow: 0px 4px 9px 0px rgba(186, 255, 247, 0.09); */
+    border-radius: 6px;
+    color: #FFFFFF;
+}
+
+.name::placeholder,
+.email::placeholder,
+.question::placeholder {
+    color: rgba(49, 226, 237, 0.40);
+}
+
+.submitButton1 {
+    background: linear-gradient(71.42deg, rgba(33, 114, 119, 0.58) -13.32%, rgba(49, 226, 237, 0.54) 114.05%),
+        linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    border: 0.25px solid rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 4px 0px rgba(7, 237, 196, 0.3);
+
+    box-shadow: 0px 4px 9px 0px rgba(186, 255, 247, 0.09);
+    padding: 8px;
+    border-radius: 4px;
+    position: relative;
+    /* left: -68px; */
+    /* right: 0; */
+    /* top: 50%; */
+    /* transform: translateX(-320%); */
+
+}
+
+.btnBox {
+    margin-top: 2%;
+    width: 70%;
+    /* padding: 10px; */
+    text-align: end;
+}
+
+.HacksText{
+    color: rgba(7, 237, 196, 1);
+
+}

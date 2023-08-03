@@ -1,0 +1,39 @@
+
+/* For Employers section one  */
+#empSectionOneRight{
+    margin-top: 5%;
+    text-align: center;
+    position: relative;
+    background-size:contain;
+    background-repeat: no-repeat, repeat;
+    background-position:center center !important;
+    background-attachment: fixed;
+    height: 400px;
+}
+
+.emp-section-inner {
+   margin-top: 10%;
+}
+.for-employers-section-one{
+   
+    /* min-height: 100vh;
+    height: 100vh !important; */
+    width: 100vw !important;
+    display: block !important;
+}
+
+.emp-heading-text{
+    font-weight: 300 !important;
+    font-weight: 300;
+    line-height: 55px;
+    color: #BAFFF7;
+
+}
+
+.emp-section-one-img1{
+    position: absolute;
+    top: -80px;
+    left: 40;
+    max-height: 40rem !important;
+    margin: auto;
+}

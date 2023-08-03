@@ -1,0 +1,125 @@
+
+
+
+
+@media only screen and (max-width: 900px) {
+  
+    .homepage-section-one-mobile{
+      display: block;
+      height: 100vh !important;
+      min-height: 100vh !important;
+      /* align-items: center; */
+    }
+    .heading-text{
+      font-size: 1.5rem !important;
+    }
+    .heading-text-inner{
+        -webkit-text-stroke: 1px #fff;
+        color: #000;
+    }
+    .heading-text-inner-mobile{
+      -webkit-text-stroke: 1px #fff;
+      /* font-size: 20px; */
+    }
+    .heading-text-default{
+      font-size: 1.5rem !important;
+    }
+    .heading-text-default-mobile{
+      color: #fff;
+      font-weight: 300;
+      /* font-size: 20px; */
+    }
+
+    .highlight-heading{
+      color: #BAFFF7 !important;
+      /* font-size: 20px; */
+    }
+
+    .landing-image-item-mobile{
+          height: 12rem !important;  
+    }
+    /* Homepage section one */
+    .landing-page-text{
+      padding-top: 6rem !important;
+    }
+
+    .landing-image-item{
+      height: 30rem;
+
+    }
+  /* background:  rgba(42, 148, 134, 0.25); */
+    /* mobile heading */
+    .apply-heading-mobile{
+         box-sizing: border-box;
+        box-shadow: 0px 4px 14px rgba(210, 210, 210, 0.08);
+        background: linear-gradient(267.54deg, rgba(19, 72, 76, 0.1) 6.05%, rgba(97, 124, 126, 0.1) 100%);
+        box-shadow: 0px 4px 14px rgba(210, 210, 210, 0.08);
+        -webkit-backdrop-filter: blur( 7px ) !important;
+        backdrop-filter: blur(7px);
+        border-radius: 13px;
+        border:1px solid;
+        border-image-slice: 2;
+        border-width: 1px !important;
+        border-image-source: linear-gradient(to right, hsla(257, 10%, 86%, 0), #ffffff9c);
+        text-align: center;
+        min-width: 80% !important;
+        font-weight: 800 !important;
+        z-index: 100;
+       
+    }
+    .apply-heading-mobile h1{
+      font-size: 1rem !important;
+    }
+
+    .landing-page-image-mobile{
+      z-index: 1;
+      position: relative;
+      height: 25vh !important;
+      min-height: 20vh !important;
+    
+    }
+
+    .glow-sm-link{
+      color:#31E2ED;
+    }
+
+    /* for midlogo center */
+    .img-container-mobile{
+      position: relative;
+    }
+    .mid-logo-Container{
+      position: absolute;
+      top: -50px;
+      margin-left: 2%;
+      width: 100% !important;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    #mobileMidLogo{
+     
+    }
+  }
+  
+@media only screen and (max-width: 450px) {
+  .landing-image-item{
+      height: 12rem;
+  
+  }
+ 
+
+}
+  @media only screen and (min-width: 600px) {
+    .landing-image-item-mobile{
+        height: 18rem;
+    
+    }
+  }
+  
+  
+@media only screen and (min-width: 700px) {
+    .landing-image-item-mobile{
+        height: 18rem;
+    
+    }
+  }

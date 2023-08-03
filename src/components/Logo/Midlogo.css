@@ -1,0 +1,53 @@
+.workverse-logo-mid{
+    margin-left: 20px;
+    scale:.8;
+    /* margin-top: 0px; */
+    /* opacity: 0 !important; */
+    position: relative !important;
+    height: 30px !important;
+   
+}
+
+svg{
+    text-shadow: 0px 0px 10px rgba(230, 255, 255, 0.53) !important;
+}
+
+
+.scale-n3{
+  scale: .3 !important;
+}
+.scale-1{
+  scale:  1 !important;
+}
+.main{
+height: 100vh;
+}
+  
+.bg-container-text{
+    color: white;
+}
+
+.wlogo-1{
+    position: absolute !important;
+  
+/* position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);     */
+}
+  
+.wlogo-2 {
+    position: absolute !important;
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) !important;     */
+}
+
+.wlogo-3{
+    position: absolute !important;
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) !important;     */
+} 
+  
+  

@@ -1,0 +1,13 @@
+// {
+//     "/api/": {
+//         "target":"https://coral-app-qu6iq.ondigitalocean.app"
+//     }
+// }
+
+{
+    "/api": {
+      "target": "https://lobster-app-i7mfo.ondigitalocean.app/",
+      "changeOrigin":true,
+      "secure": false
+    }
+}

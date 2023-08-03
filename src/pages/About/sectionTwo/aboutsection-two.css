@@ -1,0 +1,143 @@
+
+body{
+    background-image: url('../../../assets/images/about/web-bg.svg');
+  background-repeat: no-repeat;
+  background-size: cover; 
+  overflow-x: hidden;
+}
+
+
+.primary-text{
+    color: #bafff7 !important;
+}
+
+.impact-text{
+    color: #07edc4 !important;
+    margin-bottom: 0 !important;
+    text-shadow: 0 0 3px rgba(255, 255, 255, 0.8);
+}
+
+.glowyText{
+    text-shadow: 0 0 3px rgba(255, 255, 255, 0.8);
+}
+.team-card{
+    
+}
+
+.team-degnation-text{
+    color:#07EDC4;
+    /* text-align: left; */
+}
+.team-details{
+    
+}
+.team-exp-text{
+    /* max-width: 150px; */
+    text-wrap: wrap;
+    color:#fff !important;
+    opacity: 0.8;
+    width: 56%;
+    margin: auto;
+    align-items: justify;
+    text-align: justify;
+    
+}
+.team-img{
+    /* position: absolute; */
+    height: 300px;
+}
+.team-img1{
+    /* position: absolute; */
+    height: 250px;
+}
+.team-name{
+    position: absolute;
+    bottom: 10;
+
+}
+
+
+
+.testimonial-img{
+    position: absolute;
+    top: -10%;
+    height: 100px;
+    right: -15px;
+}
+
+.card-inner{
+    position: absolute;
+    margin-top: 40%;
+}
+
+.footer-text{
+    position: absolute;
+    bottom: 0;
+    right: 10;
+    text-align: right;
+}
+.footer-text > h5{
+    font-size: 16px !important;
+}
+/* testimonial text */
+.testimonial-card-text{
+    padding: 15px;
+}
+
+.ts-text{
+    color: #A1A1A1;
+    font-family: Magistral;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 60%;
+    margin-left: 40%;
+}
+
+/* react slick */
+
+.slick-slide {
+    height: auto !important;
+  }
+/* .slick-track {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+} */
+
+#backquotes{
+    position: absolute;
+    top: -30;
+    left: 14 !important;   
+}
+
+.wont{
+    color: #ffffff;
+    font-weight: 300;
+    line-height: 55px;
+    font-weight: 300 !important;
+}
+
+
+.testimonial-card{
+    position: relative;
+    max-width: 320px;
+    height: 450px !important;
+    fill: linear-gradient(132deg, rgba(2, 30, 41, 0.50) 0%, rgba(2, 30, 41, 0.55) 71.70%, rgba(2, 30, 41, 0.54) 100%)  !important;
+    stroke-width: 1px !important;
+    stroke: rgba(210, 210, 210, 0.60);
+    filter: drop-shadow(0px 4px 9px rgba(186, 255, 247, 0.09)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) !important;
+    backdrop-filter: blur(5px) !important;
+}
+
+.slick-prev:before, .slick-next:before {
+    opacity: .75;
+    color: #bafff7;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: slick;
+    font-size: 20px !important;
+    line-height: 1;
+}

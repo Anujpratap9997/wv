@@ -1,0 +1,30 @@
+.ProText{
+    color: rgba(186, 255, 247, 1);
+    text-align: left;
+
+ 
+ }
+
+ .button-Apply{
+    background: linear-gradient(87.95deg, #00C1AE -8.31%, #0294FB 116.82%);
+    position: absolute;
+    right:3%;
+    color:white;
+    font-size: 14px;
+    
+    box-shadow: 0 0 10px #0294FB;
+    border-radius:4px ;
+
+ }
+
+ .button-text-an{
+    text-shadow: 0 0 10px #fff;
+ }
+.const{
+   position: sticky;
+   top:80px;
+}
+.tabconst{
+   position: fixed;
+   top: 240px;
+}

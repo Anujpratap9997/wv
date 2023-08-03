@@ -1,0 +1,155 @@
+.textColIntro {
+    color: rgba(219, 253, 255, 1);
+}
+
+.imgSizeIntro {
+    width: 75%;
+    height: 75%;
+}
+
+.imgContIntro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.JDContIntro {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+.JDIntro {
+    width: 100%;
+    height: 100%;
+    /* background-image: url('../../../assets/images/Our Programs/Intro/JD.svg');
+  background-size: cover;
+  background-position: center; */
+}
+
+.quoteContIntro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.quoteIntro {
+    width: 75%;
+    height: 75%;
+}
+
+.textSchedule {
+    text-align: right !important;
+    font-size: 0.7em;
+
+}
+
+.AcademicTextIntro{
+ padding: 30px;
+ text-align: justify;
+}
+
+.GradContIntro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.GradIntro{
+    width: 95%;
+    height: 95%;
+    
+}
+
+.RoboGirlContIntro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.RoboGirlIntro{
+    width:100%;
+    height: 100%;
+    margin-top:20%;
+}
+
+.columnTextIntro > .row {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+.hr1{
+    /* opacity: 0.30000001192092896; */
+background: #BAFFF7;
+/* border-top: #31E2ED; */
+border-top-width: 2px;
+border-color: white;
+}
+
+.txt{
+    font-family: 'Magistral';
+font-size: 18px !important;
+font-weight: 300;
+line-height: 31px;
+letter-spacing: 0em;
+text-align: center;
+color: #DBFDFF;
+
+
+  }
+
+  .buttn{
+    /* background-color: #BAFFF7; */
+    width:100%;
+    border-width: 0.5px;
+    border-color: white;
+    background-color: transparent;
+    border-radius: 4;
+    cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  }
+
+  .buttn:hover {
+    background-color: #01453E; /* Change the background color on hover */
+  }
+
+
+@media screen and (max-width:768px) {
+    #introweb{
+        display: none;
+    }
+   
+    #intromob{
+        display: block;
+    } 
+
+    .quoteIntro {
+        width: 100%;
+        height: 100%;
+    }
+
+    .RoboGirlIntro{
+        width:75%;
+        height: 75%;
+        margin-bottom: 15%;
+    }
+    .mob-res{
+        padding: 0 20px;
+    }
+    .GradIntro{
+        width: 75%;
+        height: 75%;
+        
+    }
+}
+
+@media screen and (min-width:768px) {
+    #intromob{
+        display: none;
+    }
+    #introweb{
+        display: block;
+    }
+}

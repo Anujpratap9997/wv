@@ -1,0 +1,63 @@
+@media only screen and (max-width: 900px) {
+    
+        body{
+        background-image: url('../../../assets/images/mobile-bg-all.svg');
+          background-repeat: no-repeat;
+          background-size: center; 
+          overflow-x: hidden;
+        }
+
+    
+    #forEmpMobile{
+    
+    }
+        p{
+            opacity: .6;
+        }
+        #empMobileImgOne{
+            margin-top: 2%;
+            text-align: center;
+            position: relative;
+            /* background-size:contain; */
+            background-repeat: no-repeat, repeat;
+            background-position:center center !important;
+            /* background-attachment: fixed; */
+            height: 200px !important;
+        }
+        #empMobileCircleTextimgInner{
+            position: relative;
+            margin:auto;
+        }
+        #empMobileCircleTextimg{
+            position: absolute;
+            top: -18px;
+            left: 14;
+            max-height: 40rem !important;
+             margin: auto;
+    
+        }
+        .listnum-img{
+           height: 48px;
+        }
+        .emp-outer-circ{
+            position:relative;
+            justify-content: center;
+            align-items: center;
+            left:0;
+            right:5%;
+        }
+        #mobContactForm{
+            margin: auto;
+        }
+        .testimonial-card{
+            position: relative;
+            max-width: 320px !important;
+            height: 650px !important;
+            fill: linear-gradient(132deg, rgba(2, 30, 41, 0.50) 0%, rgba(2, 30, 41, 0.55) 71.70%, rgba(2, 30, 41, 0.54) 100%)  !important;
+            stroke-width: 1px !important;
+            stroke: rgba(210, 210, 210, 0.60);
+            filter: drop-shadow(0px 4px 9px rgba(186, 255, 247, 0.09)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) !important;
+            backdrop-filter: blur(5px) !important;
+        }
+    
+    }

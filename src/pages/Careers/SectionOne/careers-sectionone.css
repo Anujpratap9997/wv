@@ -1,0 +1,57 @@
+.step-icon{
+    min-width: 120px;
+}
+
+@media only screen and (max-width: 600px) {
+    .step-icon{
+        min-width: 88px !important;
+    }
+    .career-applynow-btn{
+        position: relative;
+        width: 90%;
+        background: linear-gradient(93.93deg, rgba(49, 226, 237, 0.61) -0.43%, #00C1AE 102.39%);
+        box-shadow: 0px 4px 9px rgba(186, 255, 247, 0.09), 0px 0px 4px rgba(7, 237, 196, 0.3);
+        border-radius: 6px;
+    }
+    
+        body{
+            background-image: url('../../../assets/images/mobile-bg-all.svg');
+          background-repeat: no-repeat;
+          background-size: cover; 
+          overflow-x: hidden;
+        }
+    
+    
+  }
+  
+/* Our hiring process is as follows We follow a strict no work from home policy. Afterall, could the Beatles have created their everlasting magic if they collaborated on zoom? */
+
+
+
+/* Rectangle 30 */
+body{
+    background-image: url('../../../assets/images/main-bg-all.svg');
+  background-repeat: no-repeat;
+  background-size: cover; 
+  overflow-x: hidden;
+}
+.jsb{
+    display: flex;
+    align-items: center;
+    justify-content: space-between !important;
+    width: 100%;
+
+}
+
+.card-col-careers {
+    background: linear-gradient(93.74deg, rgba(0, 193, 174, 0.48) 12.3%, rgba(4, 85, 78, 0.6) 90.68%),
+        linear-gradient(254.42deg, rgba(255, 240, 240, 0.48) 0%, rgba(255, 240, 240, 0.24) 100.33%);
+}
+
+.career-applynow-btn{
+    position: relative;
+    /* width: 90%; */
+    background: linear-gradient(93.93deg, rgba(49, 226, 237, 0.61) -0.43%, #00C1AE 102.39%);
+    box-shadow: 0px 4px 9px rgba(186, 255, 247, 0.09), 0px 0px 4px rgba(7, 237, 196, 0.3);
+    border-radius: 6px;
+}

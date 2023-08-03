@@ -1,0 +1,122 @@
+
+
+
+.WYLHeading{
+    color: rgba(219, 253, 255, 1);
+}
+/* p {
+    color: rgba(219, 253, 255, 1);
+    font-size: 22px;
+} */
+
+.WYLpara{
+    color: rgba(219, 253, 255, 1);
+    font-size: 22px;    
+}
+
+.WYLglowyText{
+    text-shadow: 0 0 3px rgba(255, 255, 255, 0.8);
+    color: rgba(7, 237, 196, 1);
+    font-family: Magistral;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 4px;
+    margin-bottom: 0px;
+
+
+}
+
+.btnw{
+background: linear-gradient(268.23deg, rgba(4, 85, 78, 0.32) -11.01%, rgba(27, 35, 52, 0.78) 113.06%),
+linear-gradient(268.23deg, rgba(242, 242, 242, 0.42) -4.29%, rgba(242, 242, 242, 0.13) 105.6%);
+border-radius: 7px;
+border: 1px solid linear-gradient(268.23deg, rgba(242, 242, 242, 0.42) -4.29%, rgba(242, 242, 242, 0.13) 105.6%);
+/* border-image-source: linear-gradient(268.23deg, rgba(242, 242, 242, 0.42) -4.29%, rgba(242, 242, 242, 0.13) 105.6%); */
+margin-right: 2%;
+margin-top: 2%;
+
+}
+
+.mental{
+font-family: Magistral;
+font-size: 28px;
+font-weight: 700;
+line-height: 34px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(49, 226, 237, 1);
+
+}
+
+.div-text{
+font-family: Magistral;
+font-size: 14px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(49, 226, 237, 1);
+
+}
+
+.div-img{
+    background: linear-gradient(244.32deg, #04554E 3.63%, rgba(27, 35, 52, 0.3) 102.11%),
+linear-gradient(249.47deg, rgba(216, 216, 216, 0.71) -7.17%, rgba(216, 216, 216, 0) 103.73%);
+border-radius: 7px;
+border: 1px solid;
+
+border-image-source: linear-gradient(249.47deg, rgba(216, 216, 216, 0.71) -7.17%, rgba(216, 216, 216, 0) 103.73%);
+
+
+
+}
+
+.img{
+    height: 100%;
+    width: 100%;
+}
+
+.hackdiv{
+    /* background-image: url('../../../assets/images/Our Programs/WhatYouLearn/Hack 2.svg'); */
+    background: linear-gradient(107.59deg, rgba(4, 85, 78, 0.76) -5.52%, #000000 120.24%);
+    box-shadow: 0px 0px 19px 9px rgba(7, 237, 196, 0.14);
+    width: 80%;
+    margin: auto;
+    padding: 20px 10px;
+
+    /* border: 2px solid; */
+    /* transform: rotate(7.9deg); */
+
+    /* border-image-source: linear-gradient(260.04deg, rgba(7, 237, 71, 0.61) -0.84%, rgba(22, 213, 255, 0.488) 106.89%); */
+}
+.rotate{
+    width: 100%;
+    margin: auto;
+    border: 2px solid;
+    transform: rotate(-7.9deg);
+
+    border-image-source: linear-gradient(260.04deg, rgba(7, 237, 71, 0.61) -0.84%, rgba(22, 213, 255, 0.488) 106.89%);
+}
+.hackText{
+    color: rgba(49, 226, 237, 1);
+    height: 100%;
+    width: 100%;
+}
+ul.ul li{
+    margin-bottom: 3%;
+    color: rgba(219, 253, 255, 1);
+    ;
+}
+
+.z-2{
+    position: relative;
+}
+  
+  
+  
+  
+  
+  

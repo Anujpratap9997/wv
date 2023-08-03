@@ -1,0 +1,1 @@
+export const API_URL= "https://lobster-app-i7mfo.ondigitalocean.app"

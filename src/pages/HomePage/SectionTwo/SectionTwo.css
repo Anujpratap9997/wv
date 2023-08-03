@@ -1,0 +1,99 @@
+/* Homepage section two */
+
+.homepage-section-two{
+    /* display: block; */
+    height: 150vh;
+}
+
+.homepage-section-two > .heading-text-default{
+    color: #fff;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.heading-text-secondary{
+    color: #DBFDFF !important;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.heading-text-item{
+    font-weight: 300;
+    font-size: 20px;
+}
+
+
+.section-two-heading-text-container{
+    opacity: 0;
+}
+
+.section-two-img{
+  padding-top: 13% !important;
+  scale: 0.5;
+}
+.section-two-inner{
+    background-position: top center;   
+    height: 100vh !important; 
+    position: relative;
+    opacity: 0;  
+}
+/* image */
+.section-two-item{
+    height: 32rem;
+    position: absolute;
+}
+
+.growth-image{
+    clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);
+    display: none;
+    height: 32rem;
+    position: absolute;
+    margin-top: -10%;
+    padding-left: 10%;
+    height: 40rem;
+}
+/* for medium screen */
+@media only screen and (max-width: 1200px) {
+    .heading-text-default{
+        font-size: 28px;
+    }
+        
+    .heading-text-secondary{
+        font-size: 20px;
+    }
+    .heading-text-item{
+        font-size: 18px;
+    }
+    .section-two-img{
+        scale: 0.4;
+      }
+
+  }
+
+
+/* for large screens */
+@media only screen and (min-width: 1500px) {
+    .heading-text-default{
+        font-size: 40px;
+    }
+        
+    .heading-text-secondary{
+        font-size: 28px;
+    }
+    .heading-text-item{
+        font-size: 25px;
+    }
+    /* graduate man image */
+    .section-two-item{
+      
+        height: 52rem;
+        position: absolute;
+    }
+    .section-two-img{
+        margin-top: 5%;
+        scale: 1;
+      }
+
+  }
+
+  
